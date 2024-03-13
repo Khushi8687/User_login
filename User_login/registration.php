@@ -37,15 +37,15 @@ if (isset($_REQUEST['username'])) {
     </div>
     <form>
         <div class="input-group">
-            Userame: <input type="text" name="username" /> </div>
+            Userame: <input type="text" name="username" required /> </div>
         <br>
         <div class="input-group">
             Email: <input type="email" name="email" required>
         </div> <br>
         <div class="input-group">
-            Password <input id="password" name="password" type="password" /> </div> <br>
+            Password <input id="password" name="password" type="password" required /> </div> <br>
         <div class="input-group">
-            Confirm Password <input id="cpassword" name="cpassword" type="password" /> </div> <br>
+            Confirm Password <input id="cpassword" name="cpassword" type="password" required /> </div> <br>
         <div class="input-group">
             <button type="submit" class="btn" name="reg_user">Register</button>
         </div>
